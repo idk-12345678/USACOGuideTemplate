@@ -32,7 +32,13 @@ void setIO(string filename){
     cin.tie(nullptr);
 }
 
+void setIO(){
+    ios::sync_with_stdio(0);
+    cin.tie(nullptr);
+}
+
+
 int main(){
-    
+    setIO();
 }
 
