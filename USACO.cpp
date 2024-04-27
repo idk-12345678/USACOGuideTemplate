@@ -37,6 +37,11 @@ void setIO(){
     cin.tie(nullptr);
 }
 
+double findMean(vector<int> x){
+    double sum = 0;
+    for(int a : x)sum += (double)a;
+    return sum/(double) x.size();
+}
 
 int main(){
     setIO();
